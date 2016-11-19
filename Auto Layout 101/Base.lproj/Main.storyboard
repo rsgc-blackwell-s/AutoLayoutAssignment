@@ -87,7 +87,7 @@
                                 <color key="backgroundColor" red="0.74163578138653485" green="0.34646468070386249" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UtY-mm-Czg" userLabel="View Blue">
-                                <rect key="frame" x="212" y="0.0" width="163" height="337"/>
+                                <rect key="frame" x="212" y="0.0" width="163" height="277"/>
                                 <color key="backgroundColor" red="0.26516312888553573" green="0.39012321745201606" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
@@ -98,18 +98,10 @@
                             <constraint firstAttribute="trailing" secondItem="qlv-Oh-kpk" secondAttribute="trailing" id="IR9-nO-JGR"/>
                             <constraint firstItem="qlv-Oh-kpk" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" id="KpG-TX-JaM"/>
                             <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="6Yv-Qp-T8L" secondAttribute="topMargin" constant="471" id="QRA-6X-M68"/>
-                            <constraint firstItem="UtY-mm-Czg" firstAttribute="height" secondItem="qlv-Oh-kpk" secondAttribute="height" id="QVE-3T-LKz"/>
                             <constraint firstAttribute="trailing" secondItem="UtY-mm-Czg" secondAttribute="trailing" id="TBy-mt-tUy"/>
-                            <constraint firstItem="tP0-xk-xbv" firstAttribute="height" secondItem="UtY-mm-Czg" secondAttribute="height" multiplier="1:1" id="Twm-PZ-BHW"/>
                             <constraint firstAttribute="bottomMargin" secondItem="UtY-mm-Czg" secondAttribute="bottom" constant="316" id="U3Z-It-3Yi"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="tP0-xk-xbv" secondAttribute="bottom" constant="-3" id="YCu-Q9-2Wf"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="height" secondItem="tP0-xk-xbv" secondAttribute="height" id="Yaa-jz-wo4"/>
-                            <constraint firstItem="tP0-xk-xbv" firstAttribute="width" relation="greaterThanOrEqual" secondItem="UtY-mm-Czg" secondAttribute="width" multiplier="2:1" id="bhe-vW-685"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="tP0-xk-xbv" secondAttribute="bottom" constant="-3" id="cIz-3a-RFU"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="centerY" secondItem="tP0-xk-xbv" secondAttribute="centerY" constant="332" id="cvp-ID-4ho"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="UtY-mm-Czg" secondAttribute="bottom" constant="-3" id="egB-jS-hqN"/>
                             <constraint firstItem="UtY-mm-Czg" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" constant="212" id="fSC-bF-Alt"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="tP0-xk-xbv" secondAttribute="bottom" id="rrI-NI-FMg"/>
+                            <constraint firstItem="tP0-xk-xbv" firstAttribute="width" relation="greaterThanOrEqual" secondItem="UtY-mm-Czg" secondAttribute="width" multiplier="2" id="hcM-PN-6bQ"/>
                         </constraints>
                     </view>
                 </viewController>
