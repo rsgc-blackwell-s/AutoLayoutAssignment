@@ -78,30 +78,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tP0-xk-xbv" userLabel="View Red">
-                                <rect key="frame" x="0.0" y="0.0" width="214" height="337"/>
-                                <color key="backgroundColor" red="1" green="0.25616435021771655" blue="0.17898920948931696" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2E-Ng-6YT" userLabel="RED View">
+                                <rect key="frame" x="0.0" y="0.0" width="146" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlv-Oh-kpk" userLabel="View Purple">
-                                <rect key="frame" x="0.0" y="334" width="375" height="333"/>
-                                <color key="backgroundColor" red="0.74163578138653485" green="0.34646468070386249" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9su-18-6gs" userLabel="BLUE View">
+                                <rect key="frame" x="222" y="0.0" width="153" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UtY-mm-Czg" userLabel="View Blue">
-                                <rect key="frame" x="212" y="0.0" width="163" height="277"/>
-                                <color key="backgroundColor" red="0.26516312888553573" green="0.39012321745201606" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fd3-XY-gKY" userLabel="PURPLE View">
+                                <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="qlv-Oh-kpk" secondAttribute="bottom" id="6f8-dm-FaO"/>
-                            <constraint firstAttribute="topMargin" secondItem="UtY-mm-Czg" secondAttribute="top" id="Fng-Dp-eJ5"/>
-                            <constraint firstAttribute="trailing" secondItem="qlv-Oh-kpk" secondAttribute="trailing" id="IR9-nO-JGR"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" id="KpG-TX-JaM"/>
-                            <constraint firstItem="qlv-Oh-kpk" firstAttribute="top" secondItem="6Yv-Qp-T8L" secondAttribute="topMargin" constant="471" id="QRA-6X-M68"/>
-                            <constraint firstAttribute="trailing" secondItem="UtY-mm-Czg" secondAttribute="trailing" id="TBy-mt-tUy"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="UtY-mm-Czg" secondAttribute="bottom" constant="316" id="U3Z-It-3Yi"/>
-                            <constraint firstItem="UtY-mm-Czg" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" constant="212" id="fSC-bF-Alt"/>
-                            <constraint firstItem="tP0-xk-xbv" firstAttribute="width" relation="greaterThanOrEqual" secondItem="UtY-mm-Czg" secondAttribute="width" multiplier="2" id="hcM-PN-6bQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Fd3-XY-gKY" secondAttribute="bottom" id="BuS-1H-ObO"/>
+                            <constraint firstAttribute="topMargin" secondItem="U2E-Ng-6YT" secondAttribute="top" id="CFg-dd-anr"/>
+                            <constraint firstAttribute="trailing" secondItem="9su-18-6gs" secondAttribute="trailing" id="EQy-9i-OAd"/>
+                            <constraint firstItem="Fd3-XY-gKY" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" id="IjU-Ay-x1J"/>
+                            <constraint firstItem="9su-18-6gs" firstAttribute="width" secondItem="6Yv-Qp-T8L" secondAttribute="width" multiplier="1:3" id="WPE-7f-KOd"/>
+                            <constraint firstItem="Fd3-XY-gKY" firstAttribute="height" secondItem="6Yv-Qp-T8L" secondAttribute="height" multiplier="1:2" id="h7T-Bk-HCu"/>
+                            <constraint firstItem="U2E-Ng-6YT" firstAttribute="leading" secondItem="6Yv-Qp-T8L" secondAttribute="leading" id="hO4-ko-Iwg"/>
+                            <constraint firstAttribute="topMargin" secondItem="9su-18-6gs" secondAttribute="top" id="l5f-cN-kA7"/>
+                            <constraint firstItem="9su-18-6gs" firstAttribute="height" secondItem="6Yv-Qp-T8L" secondAttribute="height" multiplier="1:2" id="lPB-b1-Gzc"/>
+                            <constraint firstItem="U2E-Ng-6YT" firstAttribute="height" secondItem="6Yv-Qp-T8L" secondAttribute="height" multiplier="1:2" id="mRB-2W-MgR"/>
+                            <constraint firstAttribute="trailing" secondItem="Fd3-XY-gKY" secondAttribute="trailing" id="p0v-Xu-YdU"/>
+                            <constraint firstItem="U2E-Ng-6YT" firstAttribute="width" secondItem="6Yv-Qp-T8L" secondAttribute="width" multiplier="2:3" id="qfo-Lu-RaA"/>
                         </constraints>
                     </view>
                 </viewController>
