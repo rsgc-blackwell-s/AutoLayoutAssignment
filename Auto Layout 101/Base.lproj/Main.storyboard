@@ -124,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CN5-WP-N5s">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="CN5-WP-N5s">
                                 <rect key="frame" x="16" y="520" width="138" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -140,6 +140,15 @@
                                         <rect key="frame" x="92" y="0.0" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DP7-4L-E2t">
+                                <rect key="frame" x="132" y="188" width="800" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Puppy &lt;333" translatesAutoresizingMaskIntoConstraints="NO" id="eya-4O-xdi">
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                                    </imageView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -183,5 +192,6 @@
     </scenes>
     <resources>
         <image name="Heart.png" width="60" height="60"/>
+        <image name="Puppy &lt;333" width="800" height="600"/>
     </resources>
 </document>
